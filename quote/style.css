@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Radio+Canada+Big:ital@1&display=swap');
+body{
+    background-image: url("https://img.freepik.com/free-photo/colorful-abstract-background-with-little-bubbles_23-2148205232.jpg");
+    background-size: cover;
+    background-repeat: none;
+    /* font-family: "Radio Canada Big", sans-serif; */
+}
+.container{
+    width:550px;
+    height:250px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 750px;
+    font-family: "Playfair", serif;
+    /* font-size: 15px; */
+    /* margin-right: 150px; */
+    /* border:2px solid grey; */
+}
+.quote-box{
+    border:2px solid grey;
+    width:100%;
+    height:250%;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 2px rgb(173, 173, 173);
+}
+#author{
+    margin-left: 300px;
+}
+.box{
+    margin-top: 30px;
+}
+button{
+    border:2px solid rgba(15, 237, 253, 0.849);
+    border-radius: 50px;
+    font-size: 1.5em;
+    /* width: 40px;
+    height:80px; */
+    padding:0 20px;
+    background-color: aqua;
+    color:grey;
+    transition: background-color 0.5s ease;
+}
+button:hover{
+    background-color: aquamarine;
+    box-shadow: 10px 10px 2px rgb(173, 173, 173);
+}
