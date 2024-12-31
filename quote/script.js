@@ -5,7 +5,7 @@ const twt=document.querySelector("#twt");
 const reset=document.querySelector("#reset");
 but.addEventListener("click",getQuote);
 function getQuote(){
-    fetch("https://api.api-ninjas.com/v1/quotes")
+    fetch("https://api.quotable.io/random")
     .then(res=>res.json())
     .then(data=>{
         quote.textContent=data.content;
